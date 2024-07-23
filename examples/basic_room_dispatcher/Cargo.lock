@@ -1301,7 +1301,7 @@ checksum = "9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd"
 
 [[package]]
 name = "libwebrtc"
-version = "0.3.2"
+version = "0.3.4"
 dependencies = [
  "cxx",
  "jni",
@@ -1315,7 +1315,6 @@ dependencies = [
  "serde_json",
  "thiserror",
  "tokio",
- "tokio-stream",
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "web-sys",
@@ -1357,7 +1356,7 @@ checksum = "01cda141df6706de531b6c46c3a33ecca755538219bd484262fa09410c13539c"
 
 [[package]]
 name = "livekit"
-version = "0.3.2"
+version = "0.4.1"
 dependencies = [
  "futures-util",
  "lazy_static",
@@ -1376,7 +1375,7 @@ dependencies = [
 
 [[package]]
 name = "livekit-api"
-version = "0.3.2"
+version = "0.3.4"
 dependencies = [
  "async-tungstenite",
  "base64",
@@ -1402,7 +1401,7 @@ dependencies = [
 
 [[package]]
 name = "livekit-protocol"
-version = "0.3.2"
+version = "0.3.4"
 dependencies = [
  "futures-util",
  "livekit-runtime",
@@ -2448,17 +2447,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c28327cf380ac148141087fbfb9de9d7bd4e84ab5d2c28fbc911d753de8a7081"
 dependencies = [
  "rustls",
- "tokio",
-]
-
-[[package]]
-name = "tokio-stream"
-version = "0.1.14"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "397c988d37662c7dda6d2208364a706264bf3d6138b11d436cbac0ad38832842"
-dependencies = [
- "futures-core",
- "pin-project-lite",
  "tokio",
 ]
 
